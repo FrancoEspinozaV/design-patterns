@@ -33,5 +33,5 @@ class Rectangulo extends FiguraGeometrica {
 const circulo = new Circulo(5)
 const rectangulo = new Rectangulo(4, 8)
 
-console.log(`${circulo.tipo} - Área: ${circulo.calcularArea()}`)
-console.log(`${rectangulo.tipo} - Área: ${rectangulo.calcularArea()}`)
+console.log(`${circulo.tipo} - Area: ${circulo.calcularArea()}`)
+console.log(`${rectangulo.tipo} - Area: ${rectangulo.calcularArea()}`)
