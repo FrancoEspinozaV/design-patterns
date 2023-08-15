@@ -17,4 +17,5 @@ class NotificationService {
 }
 
 const notificationServise = NotificationService.getInstance()
-notificationServise.sendNotification('Notificación de prueba!')
+const message = notificationServise.sendNotification('Notificación de prueba!')
+console.log(message)
