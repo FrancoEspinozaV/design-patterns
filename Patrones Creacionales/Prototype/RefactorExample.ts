@@ -59,7 +59,7 @@ function clientCode() {
   if (p1.circularReference === p2.circularReference) {
     console.log('Component with back reference has not been cloned. Booo!')
   } else {
-    console.log('Component with back reference has been cloned. Yay!!!')
+    console.log('Component with back reference has been cloned. Yay!')
   }
 
   if (p1.circularReference.prototype === p2.circularReference.prototype) {
