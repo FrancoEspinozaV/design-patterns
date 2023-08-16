@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "RefactorExample": "ts-node RefactorExample.ts",
-    "Shape": "ts-node Shape.ts"
+    "Shape": "ts-node Shape.ts",
+    "Animals": "ts-node Animals.ts"
   },
   "keywords": [],
   "author": "",
