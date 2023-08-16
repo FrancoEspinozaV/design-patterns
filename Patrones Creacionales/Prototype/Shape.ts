@@ -1,6 +1,7 @@
 // Definición de la clase base FiguraGeometrica
 class FiguraGeometrica {
-  constructor(public tipo: string) {}
+  public tipo: string
+  constructor(tipo: string) {}
 
   calcularArea() {
     throw new Error('Método calcularArea no implementado')
@@ -9,7 +10,8 @@ class FiguraGeometrica {
 
 // Definición de la clase Circulo que hereda de FiguraGeometrica
 class Circulo extends FiguraGeometrica {
-  constructor(public radio: number) {
+  public radio: number
+  constructor(radio: number) {
     super('Círculo')
   }
 
@@ -20,7 +22,9 @@ class Circulo extends FiguraGeometrica {
 
 // Definición de la clase Rectangulo que hereda de FiguraGeometrica
 class Rectangulo extends FiguraGeometrica {
-  constructor(public base: number, public altura: number) {
+  public base: number
+  public altura: number
+  constructor(base: number, altura: number) {
     super('Rectángulo')
   }
 
