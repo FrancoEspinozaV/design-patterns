@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "Product": "ts-node Product.ts",
-    "Game": "ts-node Game.ts"
+    "Game": "ts-node Game.ts",
+    "Docs": "ts-node Docs.ts"
   },
   "keywords": [],
   "author": "",
